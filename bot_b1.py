@@ -1,8 +1,8 @@
 import os, json, urllib.parse, urllib.request
 from datetime import date
 
-TOKEN = os.environ["BOT_TOKEN"]
-CHAT_ID = os.environ["B1_CHAT_ID"]
+TOKEN = os.environ["8819062101:AAE-th7p4XpNuGv85r37BVL4phjWyE4za5o"]
+CHAT_ID = os.environ["-1004480502257"]
 
 with open("topics_365_b1.json", encoding="utf-8") as f:
     topics = json.load(f)["topics"]
